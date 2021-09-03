@@ -1,9 +1,6 @@
 ################################################################################
 ##
-## BY: WANDERSON M.PIMENTA
-## PROJECT MADE WITH: Qt Designer and PySide2
-## V: 1.0.0
-##
+## BY: PHUNG HUNG BINH
 ## This project can be used freely for all uses, as long as they maintain the
 ## respective credits only in the Python scripts, any information in the visual
 ## interface (GUI) can be modified without any implication.
@@ -56,7 +53,7 @@ class UIFunctions(MainWindow):
             self.animation.setEndValue(widthExtended)
             self.animation.setEasingCurve(QtCore.QEasingCurve.InOutQuart)
             self.animation.start()
-            
+
     def setup_camera(self):
         if self.widget_2.isVisible():
             self.widget_2.hide()
@@ -126,15 +123,6 @@ class UIFunctions(MainWindow):
                 self.ui.label_user_icon.setToolTip(initialsTooltip)
         else:
             self.ui.label_user_icon.hide()
-
-    ########################################################################
-    ## END - GUI FUNCTIONS
-    ########################################################################
-
-
-    ########################################################################
-    ## START - GUI DEFINITIONS
-    ########################################################################
 
     ## ==> UI DEFINITIONS
     ########################################################################
