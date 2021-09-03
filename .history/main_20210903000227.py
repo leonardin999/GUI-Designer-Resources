@@ -35,7 +35,7 @@ class plot_main(FigureCanvas):
         fig.patch.set_facecolor('#343b48')
         fig.suptitle('Robot-Controller Simulation Flatform',color='white',fontsize=15)
         matplotlib.style.use("seaborn-notebook")
-
+        
         self.axes = fig.gca(projection='3d')
         self.axes.set_facecolor('#343b48')
         self.axes.set_xlim(10,-45)
@@ -50,7 +50,7 @@ class plot_main(FigureCanvas):
         self.axes.tick_params(axis='z', colors='white')
         super(plot_main, self).__init__(fig)
         fig.tight_layout()
-
+        
 class plot_camera(FigureCanvas):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
         fig = Figure(figsize=(width, height), dpi=dpi)
@@ -71,7 +71,7 @@ class plot_camera(FigureCanvas):
         self.axes.tick_params(axis='z', colors='white')
         super(plot_camera, self).__init__(fig)
         fig.tight_layout()
-
+        
 class plot_analysis(FigureCanvas):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
         fig = Figure(figsize=(width, height), dpi=dpi)
@@ -84,7 +84,7 @@ class plot_analysis(FigureCanvas):
         self.axes.tick_params(axis='y', colors='white')
         super(plot_analysis, self).__init__(fig)
         #fig.tight_layout()
-
+        
 class MainWindow(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
@@ -109,7 +109,7 @@ class MainWindow(QMainWindow):
         UIFunctions.uiDefinitions(self)
         ## ==> Create Menus ##
         ########################################################################
-
+        
         ## Toggle menu ##
         self.ui.btn_toggle_menu.clicked.connect(lambda: UIFunctions.toggleMenu(self, 220, True))
 
@@ -150,11 +150,11 @@ class MainWindow(QMainWindow):
 
         self.ui.frame_label_top_btns.mouseMoveEvent = moveWindow
 
-
+        
         ## SHOW ==> MAIN WINDOW
         ########################################################################
         self.show()
-
+        
     def Button(self):
         # GET BT CLICKED
         btnWidget = self.sender()
@@ -179,7 +179,7 @@ class MainWindow(QMainWindow):
             UIFunctions.resetStyle(self, "btn_Manual")
             UIFunctions.labelPage(self, "Kinematics")
             btnWidget.setStyleSheet(UIFunctions.selectMenu(btnWidget.styleSheet()))
-
+            
         # PAGE VISUALIZE
         if btnWidget.objectName() == "btn_Visualize":
             self.ui.stackedWidget.setCurrentWidget(self.ui.page_visualize)

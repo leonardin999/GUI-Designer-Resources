@@ -1,6 +1,8 @@
 ################################################################################
 ##
-## BY: PHUNG HUNG BINH
+## BY: WANDERSON M.PIMENTA
+## PROJECT MADE WITH: Qt Designer and PySide2
+## V: 1.0.0
 ##
 ## This project can be used freely for all uses, as long as they maintain the
 ## respective credits only in the Python scripts, any information in the visual
@@ -12,8 +14,14 @@
 ##
 ################################################################################
 
-## ==> GUI FILE
-from main import *
+# GUI FILE
+from ui_main import Ui_MainWindow
 
-class Functions(MainWindow):
-    pass
+# IMPORT QSS CUSTOM
+from ui_styles import Style
+
+# IMPORT FUNCTIONS
+from ui_functions import *
+
+## ==> APP FUNCTIONS
+from app_functions import *
