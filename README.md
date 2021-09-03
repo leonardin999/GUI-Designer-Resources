@@ -1,6 +1,6 @@
 # Python Interface  - PyQt5 (MODERN / FLAT GUI)
-> ## :contact:
-> ## 🔗 Linkedin: https://www.linkedin.com/in/b%C3%ACnh-h%C6%B0ng-008b02163/
+> ## contact me at:
+> ### 🔗 Linkedin: https://www.linkedin.com/in/b%C3%ACnh-h%C6%B0ng-008b02163/
 > **Warning**: use PyQt5 in version 5.15.2 or > (**pip install PyQt5-Default**)!
 
 
