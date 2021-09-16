@@ -1726,7 +1726,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
                     <property name="title">
                      <string>Actual Joint Value:</string>
                     </property>
-                    <widget class="QWidget" name="">
+                    <widget class="QWidget" name="layoutWidget">
                      <property name="geometry">
                       <rect>
                        <x>10</x>
@@ -2878,7 +2878,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
                       </item>
                      </layout>
                     </widget>
-                    <widget class="QWidget" name="">
+                    <widget class="QWidget" name="layoutWidget">
                      <property name="geometry">
                       <rect>
                        <x>100</x>
@@ -4359,7 +4359,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
                     <property name="title">
                      <string>Foward Kinematics:</string>
                     </property>
-                    <widget class="QWidget" name="">
+                    <widget class="QWidget" name="layoutWidget">
                      <property name="geometry">
                       <rect>
                        <x>6</x>
@@ -5511,7 +5511,7 @@ font: 12pt &quot;Segoe UI&quot;;</string>
                       </item>
                      </layout>
                     </widget>
-                    <widget class="QWidget" name="">
+                    <widget class="QWidget" name="layoutWidget">
                      <property name="geometry">
                       <rect>
                        <x>90</x>
@@ -6771,7 +6771,7 @@ QLineEdit:focus {
                       </item>
                      </layout>
                     </widget>
-                    <widget class="QWidget" name="">
+                    <widget class="QWidget" name="layoutWidget">
                      <property name="geometry">
                       <rect>
                        <x>175</x>
@@ -8581,13 +8581,8 @@ QLineEdit:focus {
                       </property>
                      </widget>
                     </widget>
-                    <zorder>Xposlabel</zorder>
-                    <zorder>Yposlabel</zorder>
-                    <zorder>xposvalue</zorder>
-                    <zorder>yposvalue</zorder>
-                    <zorder>zposvalue</zorder>
+                    <zorder>splitter</zorder>
                     <zorder>label</zorder>
-                    <zorder>Yposlabel_2</zorder>
                    </widget>
                    <widget class="QGroupBox" name="groupBox_3">
                     <property name="geometry">
@@ -9050,8 +9045,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/16x16/cil-caret-bottom.png</normaloff>../Robot Controller API/icons/16x16/cil-caret-bottom.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-caret-bottom.png</normaloff>:/16x16/icons/16x16/cil-caret-bottom.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLineEdit" name="yposvalue_2">
@@ -9490,8 +9485,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/16x16/cil-caret-left.png</normaloff>../Robot Controller API/icons/16x16/cil-caret-left.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-caret-left.png</normaloff>:/16x16/icons/16x16/cil-caret-left.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="btn_z_up">
@@ -9713,8 +9708,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-arrow-top.png</normaloff>../Robot Controller API/icons/20x20/cil-arrow-top.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-arrow-top.png</normaloff>:/16x16/icons/16x16/cil-arrow-top.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLineEdit" name="xposvalue_2">
@@ -10153,8 +10148,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/16x16/cil-caret-top.png</normaloff>../Robot Controller API/icons/16x16/cil-caret-top.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-caret-top.png</normaloff>:/16x16/icons/16x16/cil-caret-top.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="btn_z_down">
@@ -10376,8 +10371,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-arrow-bottom.png</normaloff>../Robot Controller API/icons/20x20/cil-arrow-bottom.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-arrow-bottom.png</normaloff>:/16x16/icons/16x16/cil-arrow-bottom.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLabel" name="Yposlabel_3">
@@ -10795,8 +10790,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/16x16/cil-caret-right.png</normaloff>../Robot Controller API/icons/16x16/cil-caret-right.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-caret-right.png</normaloff>:/16x16/icons/16x16/cil-caret-right.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLabel" name="Xposlabel_5">
@@ -12084,8 +12079,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-plus.png</normaloff>../Robot Controller API/icons/24x24/cil-plus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-plus.png</normaloff>:/16x16/icons/16x16/cil-plus.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLabel" name="label_24">
@@ -12326,8 +12321,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-plus.png</normaloff>../Robot Controller API/icons/24x24/cil-plus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/20x20/icons/20x20/cil-plus.png</normaloff>:/20x20/icons/20x20/cil-plus.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="minus_roll">
@@ -12549,8 +12544,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-minus.png</normaloff>../Robot Controller API/icons/24x24/cil-minus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-minus.png</normaloff>:/16x16/icons/16x16/cil-minus.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLineEdit" name="yaw_value">
@@ -12989,8 +12984,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-plus.png</normaloff>../Robot Controller API/icons/24x24/cil-plus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-plus.png</normaloff>:/16x16/icons/16x16/cil-plus.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLabel" name="label_23">
@@ -13231,8 +13226,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-minus.png</normaloff>../Robot Controller API/icons/24x24/cil-minus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-window-minimize.png</normaloff>:/16x16/icons/16x16/cil-window-minimize.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="minus_yaw">
@@ -13454,8 +13449,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-minus.png</normaloff>../Robot Controller API/icons/24x24/cil-minus.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-minus.png</normaloff>:/16x16/icons/16x16/cil-minus.png</iconset>
                      </property>
                     </widget>
                     <widget class="QLabel" name="label_25">
@@ -13939,8 +13934,8 @@ border-radius: 5px;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-x.png</normaloff>../Robot Controller API/icons/20x20/cil-x.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-x.png</normaloff>:/16x16/icons/16x16/cil-x.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="btnconnect_arduino">
@@ -14162,8 +14157,8 @@ border-radius: 5px;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-power-standby.png</normaloff>../Robot Controller API/icons/20x20/cil-power-standby.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-power-standby.png</normaloff>:/16x16/icons/16x16/cil-power-standby.png</iconset>
                      </property>
                     </widget>
                     <widget class="QComboBox" name="port_arduino">
@@ -14622,8 +14617,8 @@ border-radius: 5px;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-power-standby.png</normaloff>../Robot Controller API/icons/20x20/cil-power-standby.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-power-standby.png</normaloff>:/16x16/icons/16x16/cil-power-standby.png</iconset>
                      </property>
                     </widget>
                     <widget class="QComboBox" name="port_raspberry">
@@ -15082,8 +15077,8 @@ border-radius: 5px;
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-x.png</normaloff>../Robot Controller API/icons/20x20/cil-x.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-x.png</normaloff>:/16x16/icons/16x16/cil-x.png</iconset>
                      </property>
                     </widget>
                     <widget class="QComboBox" name="baud_raspberry">
@@ -16013,8 +16008,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-home.png</normaloff>../Robot Controller API/icons/20x20/cil-home.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-home.png</normaloff>:/16x16/icons/16x16/cil-home.png</iconset>
                      </property>
                     </widget>
                    </widget>
@@ -19319,8 +19314,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-camera.png</normaloff>../Robot Controller API/icons/24x24/cil-camera.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-camera.png</normaloff>:/16x16/icons/16x16/cil-camera.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="btn_analysis">
@@ -19352,8 +19347,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/24x24/cil-notes.png</normaloff>../Robot Controller API/icons/24x24/cil-notes.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-notes.png</normaloff>:/16x16/icons/16x16/cil-notes.png</iconset>
                      </property>
                      <property name="iconSize">
                       <size>
@@ -19422,8 +19417,8 @@ QPushButton:pressed {
                       <string/>
                      </property>
                      <property name="icon">
-                      <iconset>
-                       <normaloff>../Robot Controller API/icons/20x20/cil-equalizer.png</normaloff>../Robot Controller API/icons/20x20/cil-equalizer.png</iconset>
+                      <iconset resource="files.qrc">
+                       <normaloff>:/16x16/icons/16x16/cil-equalizer.png</normaloff>:/16x16/icons/16x16/cil-equalizer.png</iconset>
                      </property>
                     </widget>
                     <widget class="QPushButton" name="btn_record">

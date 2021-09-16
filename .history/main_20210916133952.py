@@ -12,6 +12,7 @@
 
 import sys
 import matplotlib
+% matplotlib inline
 from matplotlib import cm
 matplotlib.use('Qt5Agg')
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
@@ -34,7 +35,7 @@ class plot_main(FigureCanvas):
         fig = Figure(figsize=(width, height), dpi=dpi)
         fig.patch.set_facecolor('#343b48')
         fig.suptitle('Robot-Controller Simulation Flatform',color='white',fontsize=15)
-        #matplotlib.pyplot.style.use("seaborn-notebook")
+        matplotlib.pyplot.style.use("seaborn-notebook")
 
         self.axes = fig.gca(projection='3d')
         self.axes.set_facecolor('#343b48')
@@ -57,7 +58,7 @@ class plot_camera(FigureCanvas):
         fig.patch.set_facecolor('#343b48')
         fig.tight_layout()
         fig.suptitle('Camera Zooming',color='white',fontsize=15)
-        #matplotlib.pyplot.style.use("seaborn-notebook")
+        matplotlib.pyplot.style.use("seaborn-notebook")
         self.axes = fig.gca(projection='3d')
         self.axes.set_facecolor('#343b48')
         self.axes.set_xlim(0,-45)
@@ -77,7 +78,7 @@ class plot_analysis(FigureCanvas):
         fig = Figure(figsize=(width, height), dpi=dpi)
         fig.patch.set_facecolor('#343b48')
         fig.tight_layout()
-        #matplotlib.pyplot.style.use("seaborn-notebook")
+        matplotlib.pyplot.style.use("seaborn-notebook")
         self.axes = fig.add_subplot(111)
         self.axes.grid(True)
         self.axes.xaxis.set_ticklabels([])
